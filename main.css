@@ -1,0 +1,120 @@
+        body {
+            background-color: #d9d9d9 !important;
+            font-family: 'Inter', sans-serif !important;
+        }
+
+        .site-wrapper {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .carousel {
+            margin-top: 25px;
+        }
+
+        .navbar .container {
+            margin-right: 0;
+        }
+
+        .mt-xl {
+            margin-top: 54px;
+        }
+
+        .card-margin {
+            margin-top: 45px;
+            margin-bottom: 54px;
+        }
+
+        .container li {
+            justify-content: end !important;
+            border: 16px !important;
+        }
+
+        .carousel img {
+            padding-top: 16px;
+            height: 577px;
+            object-fit: cover;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+        }
+
+        .navbar-nav .nav-link.active {
+            color: #fff;
+        }
+
+        .nav-link {
+            text-align: center;
+            padding-left: 64px !important;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color: #2E3135;
+            z-index: 3;
+        }
+
+        .highlight {
+            display: inline;
+            font-weight: bold;
+            background: linear-gradient(to top, #EAB464 40%, transparent 40%);
+        }
+
+        .logo {
+            height: 64px;
+            padding-left: 16px;
+        }
+
+        footer {
+            background-color: #2E3135;
+        }
+
+        .card {
+            margin-bottom: 16px;
+            box-shadow: 8px 8px 16px #888888;
+            display: flex;
+            flex-direction: column;
+            height: 100% !important;
+        }
+
+        .card-body {
+            background-color: #646E78;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card img {
+            height: 218px;
+            object-fit: cover;
+        }
+
+        .btn-primary {
+            --bs-btn-bg: #EAB464 !important;
+            border-color: #EAB464 !important;
+            transition: all 0.3s ease !important;
+            margin-top: auto;
+            align-self: flex-start;
+        }
+
+        .btn:hover {
+            --bs-btn-hover-bg: #cfa059 !important;
+        }
+
+        .end {
+            position: absolute 0;
+        }
+
+        #explore {
+            scroll-margin-top: 75px;
+        }
+
+        /* celular */
+        @media screen and (max-width:767px) {
+            .btn-primary {
+                align-self: stretch;
+            }
+        }

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <a href="index.html">
+            <img src="images/logo.svg"  class="logo">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container">
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Highlights</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#explore">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#end">End</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- CAROUSEL -->
+    <div class="container mt-xl mb-3">
+        <h1 class="fw-bold highlight">Featured Highlights</h1>
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img src="images/68f60a3c-5263-4e53-9caa-20ed4198bbfe.jfif" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h2 class="fw-bold">Rainy Day Vibes</h2>
+                        <h3>Let the rain guide your mood</h3>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="images/71a5ffa3-e24e-40bd-b771-a85b919018fd.jfif" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h2 class="fw-bold">Chill Nights</h2>
+                        <h3>Unwind with smooth Lo-Fi.</h3>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="images/ed92c7a3-b935-439e-b13d-8104f4e96437.jfif" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h2 class="fw-bold">Relax & Studys</h2>
+                        <h3>Curated beats for focus.</h3>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- CARDS  -->
+
+    <section id="explore">
+        <div class="container mb-xl card-margin">
+            <h1 class="fw-bold highlight">Vibes for Every Moment</h1>
+            <div class="row mt-5 g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card border-0 rounded">
+                        <img class="rounded-top" src="images/card 1.jfif">
+                        <div class="card-body text-light border-0 rounded-bottom">
+                            <h4 class="card-title fw-bold">Study Beats</h4>
+                            <p class="card-text fw-light">
+                                Soft instrumental music to help you stay focused and productive.
+                            </p>
+                            <a href="#" class="btn btn-primary text-light"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path d="M9 18l6-6-6-6" />
+                                </svg>Listen now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card border-0 rounded">
+                        <img class="rounded-top" src="images/card 2.jfif">
+                        <div class="card-body text-light border-0 rounded-bottom">
+                            <h4 class="card-title fw-bold">Night Walk</h4>
+                            <p class="card-text fw-light">
+                                Perfect tracks for walking through the city at night, under the soft glow of
+                                streetlights.
+                            </p>
+                            <a href="#" class="btn btn-primary text-light"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path d="M9 18l6-6-6-6" />
+                                </svg>Listen now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card border-0 rounded">
+                        <img class="rounded-top" src="images/card 3.jfif">
+                        <div class="card-body text-light border-0 rounded-bottom">
+                            <h4 class="card-title fw-bold">Rainy Day</h4>
+                            <p class="card-text fw-light">
+                                Calm sounds and cozy melodies to accompany rainy afternoons.
+                            </p>
+                            <a href="#" class="btn btn-primary text-light"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path d="M9 18l6-6-6-6" />
+                                </svg>Listen now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card border-0 rounded">
+                        <img class="rounded-top" src="images/card 4.jfif">
+                        <div class="card-body text-light border-0 rounded-bottom">
+                            <h4 class="card-title fw-bold">Late Night Coding</h4>
+                            <p class="card-text fw-light">
+                                Calm, steady music to accompany your late-night codding marathons.
+                            </p>
+                            <a href="#" class="btn btn-primary text-light"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path d="M9 18l6-6-6-6" />
+                                </svg>Listen now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card border-0 rounded">
+                        <img class="rounded-top" src="images/card 5.jfif">
+                        <div class="card-body text-light border-0 rounded-bottom">
+                            <h4 class="card-title fw-bold">City Lights</h4>
+                            <p class="card-text fw-light">
+                                Atmospheric beats that capture the energy of urban nights.
+                            </p>
+                            <a href="#" class="btn btn-primary text-light"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path d="M9 18l6-6-6-6" />
+                                </svg>Listen now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card border-0 rounded">
+                        <img class="rounded-top" src="images/card 6.jfif">
+                        <div class="card-body text-light border-0 rounded-bottom">
+                            <h4 class="card-title fw-bold">Coffe Time</h4>
+                            <p class="card-text fw-light">
+                                The perfect soundtrack for coffee moments.
+                            </p>
+                            <a href="#" class="btn btn-primary text-light"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path d="M9 18l6-6-6-6" />
+                                </svg>Listen now</a>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    </div>
+    </div>
+
+    <!-- FOOTER -->
+    <section id="end">
+        <footer class="py-1 mt-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link px-2 text-light">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link px-2 text-light">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link px-2 text-light">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link px-2 text-light">Privacy Policy</a>
+                </li>
+            </ul>
+            <p class="text-center text-light">@ 2025 Leonardo Scheffer
+            </p>
+        </footer>
+    </section>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
