@@ -50,6 +50,15 @@
             padding-left: 64px !important;
         }
 
+        .navbar-toggler {
+            margin-right: 8px !important;
+        }
+
+        .navbar-toggler-icon {
+            --bs-navbar-toggler-icon-bg:url('/images/list.svg') !important;
+            filter: brightness(0) invert(1);
+        }
+
         header {
             position: sticky;
             top: 0;
@@ -116,5 +125,9 @@
         @media screen and (max-width:767px) {
             .btn-primary {
                 align-self: stretch;
+            }
+
+            .nav-link {
+                padding-left: 0px !important;
             }
         }
